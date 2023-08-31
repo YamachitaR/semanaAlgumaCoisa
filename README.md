@@ -1,11 +1,12 @@
-# Empowerdata-Evento
+# Sobre esse  Repositório
 
-Trata do evento da Semana do Python na Prática (Maio/2023) oferecido por  [Empowerdata](https://www.youtube.com/@empowerpython), nessa semana foram feitos 4 projetos, que são:
+O que você vai encontra aqui?
 
-1. Relatório: Criamos uma automatização de um relatório de um orçamento.  
+- Sabe quando você faz aquela semana de graça onde no final o cara vai vender o curso? 
+- Trecho de código que você faz para testar, ou um exercicio aleatório.
+- Ao quebrar algo, você abre a caixa de ferramenta, perceber que tem uma porrada de bugiganga, mas você não joga nada pois sabe que um dia você vai usar, então é mesma coisa com codigo aqui.
+- Etc, blá-blá 
+- Não repare na bagunça! Aquilo é um rato morto? Não, ele esta vivo, Python gosta de alimento vivo!
 
-2. Automatização de envio de email, nesse projeto fazemos uma pequena análise de uma ação, depois enviamos um email com informação dessa ação.  
+Ou seja apenas um deposito ... 
 
-3. Análise de dados: Nesse projeto fizemos uma pequena análise de dados, criamos gráfico bonitos, salvamos em html  
-
-4. Machine Learning: Nesse projeto pegamos uma determinada ação, treinamos o modelo para prever o seu valor futuro.
