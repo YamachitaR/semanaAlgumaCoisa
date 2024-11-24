@@ -178,7 +178,7 @@ app.get("/posts", async(req, res) => {
 
 Vamos criar vários arquivos:
 
-`src/routes/postRoutes.js`
+- `src/routes/postRoutes.js`
 
 Aqui como o nome já diz, vai ficar a nossa Rota, caminho da urls
 ~~~js
@@ -194,7 +194,7 @@ const routes = (app) => {
 export default routes;
 ~~~
 
-`src/controllers/postControler.js`
+- `src/controllers/postControler.js`
 
 Aqui vamos ter o controler no sentido acesso, ao entrar na rota `posts`vai ser exercutado a função `listarPosts`:
 
@@ -208,7 +208,8 @@ export async function listarPosts (req, res)
 }
 ~~~
 
-`src/models/postsModels.js`
+- `src/models/postsModels.js`
+
 Aqui vai ficar relacionado o banco de dados
 
 ~~~js
@@ -217,8 +218,9 @@ import conectarAoBanco from "../config/dbConfig.js";
 const conexao = await conectarAoBanco(process.env.STRING_CONEXAO);
 
 export async function getTodosPosts(){
-    const db = conexao.db("imersao-instabytes");
+    const db = conexao.db("imersao-instabyte");
     const colecao = db.collection("posts");
     return colecao.find().toArray();
 }
 ~~~
+
