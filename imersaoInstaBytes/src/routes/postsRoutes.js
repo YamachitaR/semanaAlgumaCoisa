@@ -1,7 +1,6 @@
 import express from "express";
 import multer from "multer"; 
-import { listarPosts, postarNovoPost, uploadImagem } from "../controllers/postsController.js"; 
-
+import { listarPosts, postarNovoPost, uploadImagem, atualizarNovoPost } from "../controllers/postsController.js"; 
 
 // seria necessario para Windons
 /*
@@ -29,6 +28,8 @@ const routes = (app) => {
     app.post("/posts", postarNovoPost); // Chama a função controladora para criação de posts
 
     app.post("/upload", upload.single("imagem"), uploadImagem);
+
+    app.put("/upload/:id", atualizarNovoPost);
 }
 
 export default routes;
